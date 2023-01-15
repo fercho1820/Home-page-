@@ -1,0 +1,70 @@
+.menu__home {
+    display: none;
+}
+
+.menu__desktop {
+    display: flex;
+    list-style: none;
+}
+
+.menu__desktop--color {
+    margin-right: 14px;
+}
+
+.menu__desktop--color a {
+    color: var(--color-primary);
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2.6rem;
+    text-decoration: none;
+}
+
+.menu__desktop--color a:hover {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.front__page {
+    height: 300px;
+} 
+
+.desing__top {
+    margin-top: 100px;
+}
+
+.desings__content--card--more {
+    justify-content: flex-end;
+    margin: 80px 60px 0 0;
+}
+
+.team__photos {
+    margin: 0;
+}
+
+.team__photos--photo--one {
+    width: 160px;
+    height: 160px;
+}
+.team__photos--photo--tree {
+    width: 160px;
+    height: 160px;
+}
+
+.team__photos--photo--two {
+    width: 150px;
+    height: 150px;
+}
+
+.content__footer {
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.content__footer--form--button {
+    margin-left: -40px;
+}
+
+.content__footer--contact--paragrahp  {
+    margin: 0;
+}
